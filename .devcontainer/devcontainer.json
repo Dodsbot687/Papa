@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "papa=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$papa/m.py",
+    "postStartCommand": "papa=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$papa/swarg.py",
     "customizations": {
         "vscode": {
             "settings": {
